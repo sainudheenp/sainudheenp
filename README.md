@@ -16,5 +16,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![snake gif](https://github.com/sainudheenp/sainudheenp/blob/output/github-contribution-grid-snake.gif)
-<img src="https://raw.githubusercontent.com/sainudheenp/sainudheenpn
-/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/sainudheenp/sainudheenp/output/snake.svg" alt="Snake animation" />
