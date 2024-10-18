@@ -16,7 +16,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+<img src="https://raw.githubusercontent.com/sainudheenp/sainudheenp/output/snake.svg" alt="Snake animation" />
+
 -->
 🌱 On a learning curve 😋
 
-<img src="https://raw.githubusercontent.com/sainudheenp/sainudheenp/output/snake.svg" alt="Snake animation" />
