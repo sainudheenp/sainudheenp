@@ -29,3 +29,5 @@ Here are some ideas to get you started:
 -->
 🌱 On a learning curve 😋
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=sainudheenp&theme=dark)](https://git.io/streak-stats)
+
