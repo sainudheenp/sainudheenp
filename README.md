@@ -45,7 +45,7 @@
 <br>
 <br>
 
-<a href=""><img alt="Sainudheen's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=sainudheenp&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/></a><a href=""><img alt="Sainudheen's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sainudheenp&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117&exclude_repo=key-keeper,tezla-web,scholarship-portal,sainudheenp.github.io" /></a>
+<a href=""><img alt="Sainudheen's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=sainudheenp&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/></a><a href=""><img alt="Sainudheen's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sainudheenp&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
 
 
 <!--
