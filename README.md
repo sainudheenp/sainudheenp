@@ -3,7 +3,7 @@
     Hello world! 
     &nbsp;
 
-    &nbsp;Welcome to  Sainudheen P's profile!
+   Welcome to  Sainudheen P's profile!
 
 </h3>
 
