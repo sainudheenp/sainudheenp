@@ -17,7 +17,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.instagram.com/sainu.dheen_"><img width="32px" alt="Instagram" title="Instagram" src="https://cdn-icons-png.flaticon.com/512/174/174855.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://wa.me/+918891146973"><img width="32px" alt="Whatsapp" title="Whatsapp" src="https://cdn-icons-png.flaticon.com/512/220/220236.png"/></a>
+  <a href="https://wa.me/+91"><img width="32px" alt="Whatsapp" title="Whatsapp" src="https://cdn-icons-png.flaticon.com/512/220/220236.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.com/users/#2462"><img width="32px" alt="Discord" title="Discord" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
