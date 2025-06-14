@@ -15,6 +15,6 @@
   <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
   <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge" />
   <img alt="GraphQl" src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white&style=for-the-badge" />
-  <img alt="Python" src="https://img.shields.io/badge/python-61DAFB?logo=python" />
+  <img alt="Python" src="https://img.shields.io/badge/python-61DAFB?logo=python&logoColor=white&style=for-the-badge" />
 
 </p>
