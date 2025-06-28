@@ -4,7 +4,7 @@
 ### HI THERE....
 
 ### GitHub Streak 🔥
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=sainudheenp" alt="GitHub Streak" /></a>&emsp;&emsp;&emsp;![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sainudheenp&theme=tokyonight&layout=compact)
+&emsp;&emsp;&emsp;![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sainudheenp&theme=tokyonight&layout=compact)
 
 **Languages:** 
 <p>
