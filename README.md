@@ -2,7 +2,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=sainudheenp)](https://git.io/streak-stats) -->
 ### HI THERE....,
-
+[![An image of @sainudheenp3's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sainudheenp3)](https://holopin.io/@sainudheenp3)
 ### GitHub Streak 🔥
 &emsp;&emsp;&emsp;![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sainudheenp&theme=tokyonight&layout=compact)
 
