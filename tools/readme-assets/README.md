@@ -3,7 +3,11 @@
 The SVGs in `assets/readme/` are generated — don't hand-edit them.
 
 ```bash
-node tools/readme-assets/build.mjs   # regenerate the SVGs
+node tools/readme-assets/build.mjs            # regenerate the SVGs
+
+cd tools/readme-assets && npm install         # once, for the preview renderer
+npm run preview                               # rebuild preview.html
+npm run serve                                 # rebuild + serve on http://localhost:8080
 ```
 
 | File | Used for |
@@ -14,8 +18,10 @@ node tools/readme-assets/build.mjs   # regenerate the SVGs
 | `divider.svg` | Thin animated section divider |
 | `pass.svg` | "Boarding pass" contact card |
 
-`preview.html` is a self-contained render of `README.md` (SVGs inlined) so the
-page can be reviewed in a browser without pushing.
+`preview.html` is a self-contained render of `README.md` (local SVGs inlined as
+data URIs) so the page can be reviewed in a browser without pushing.
+`preview.mjs --serve` serves it on port 8080, bound to `0.0.0.0` so a remote
+preview proxy can reach it.
 
 Rules the generator follows (GitHub sandboxes README SVGs as images — no
 scripts, no external requests, no web fonts):

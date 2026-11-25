@@ -1,0 +1,15 @@
+{
+  "name": "readme-assets",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generates the animated SVGs and a local preview for the profile README",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node preview.mjs",
+    "serve": "node preview.mjs --serve"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
