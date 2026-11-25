@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 200" width="1100" height="200" role="img" aria-labelledby="t d">
+  <title id="t">Boarding pass — Sainudheen, open to work</title>
+  <desc id="d">A boarding-pass style card with the name Sainudheen, an open-to-work stamp, destination github.com/sainudheenp and an animated plane.</desc>
+  <defs>
+  <linearGradient id="gName" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.35" stop-color="#22d3ee"/>
+    <stop offset="0.7" stop-color="#8b5cf6"/>
+    <stop offset="1" stop-color="#f472b6"/>
+    <animate attributeName="x1" values="-0.6;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0.4;2" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="gEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.85"/>
+    <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity="0.75"/>
+  </linearGradient>
+  <linearGradient id="gSweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    <animate attributeName="x1" values="-1;1" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="gGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="46"/>
+  </filter>
+  <filter id="soft2" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1.1" fill="#e8ecf8" fill-opacity="0.16"/>
+  </pattern><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080c18"/><stop offset="0.6" stop-color="#0b1020"/><stop offset="1" stop-color="#0d0a1e"/>
+  </linearGradient></defs>
+  <style>@keyframes pulse{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+
+  <rect width="1100" height="200" rx="24" fill="url(#pbg)"/>
+  <rect x="1" y="1" width="1098" height="198" rx="24" fill="none" stroke="#1c2540"/>
+  <rect width="1100" height="200" rx="24" fill="url(#dots)" opacity="0.22"/>
+
+  <text x="48" y="52" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3.4" fill="#22d3ee">BOARDING PASS</text>
+  <text x="48" y="96" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.6" fill="url(#gName)">Sainudheen</text>
+  <text x="48" y="126" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="2" fill="#8b98b8">FULL-STACK DEV · TRAVEL-TECH EXPLORER</text>
+
+  <g transform="translate(48 150)">
+    <rect width="150" height="30" rx="15" fill="#a3e635" fill-opacity="0.12" stroke="#a3e635" stroke-opacity="0.35"/>
+    <circle cx="18" cy="15" r="4" fill="#a3e635" style="animation:pulse 2.2s ease-in-out infinite"/>
+    <text x="32" y="20" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.4" fill="#a3e635">OPEN TO WORK</text>
+  </g>
+
+  <!-- perforation -->
+  <path d="M760 0 V 200" stroke="#1c2540" stroke-width="1.6" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" values="0;-56" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="760" cy="0" r="13" fill="#080b16"/>
+  <circle cx="760" cy="200" r="13" fill="#080b16"/>
+
+  
+    <g transform="translate(800 62)">
+      <text font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" letter-spacing="2.4" fill="#8b98b8" fill-opacity="0.8">GATE</text>
+      <text y="26" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#e8ecf8">∞</text>
+    </g>
+  
+    <g transform="translate(878 62)">
+      <text font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" letter-spacing="2.4" fill="#8b98b8" fill-opacity="0.8">SEAT</text>
+      <text y="26" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#e8ecf8">01</text>
+    </g>
+  
+    <g transform="translate(952 62)">
+      <text font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" letter-spacing="2.4" fill="#8b98b8" fill-opacity="0.8">CLASS</text>
+      <text y="26" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#fbbf24">CURIOUS</text>
+    </g>
+  
+    <g transform="translate(800 128)">
+      <text font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" letter-spacing="2.4" fill="#8b98b8" fill-opacity="0.8">DESTINATION</text>
+      <text y="26" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" fill="#22d3ee">github.com/sainudheenp</text>
+    </g>
+
+  <!-- little plane trail -->
+  <g opacity="0.9">
+    <path d="M800 178 H 1044" stroke="#1c2540" stroke-dasharray="3 7" stroke-width="1.4"/>
+    <g>
+      <animateMotion dur="6s" repeatCount="indefinite" path="M800 178 H 1044"/>
+      <path d="M-9 0 L 6 -3.4 L 2 0 L 6 3.4 Z" fill="#22d3ee"/>
+    </g>
+  </g>
+</svg>

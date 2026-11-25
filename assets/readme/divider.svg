@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 26" width="1100" height="26" role="img" aria-labelledby="t d">
+  <title id="t"></title>
+  <desc id="d">Decorative animated divider.</desc>
+  <defs>
+  <linearGradient id="gName" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.35" stop-color="#22d3ee"/>
+    <stop offset="0.7" stop-color="#8b5cf6"/>
+    <stop offset="1" stop-color="#f472b6"/>
+    <animate attributeName="x1" values="-0.6;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0.4;2" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="gEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.85"/>
+    <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity="0.75"/>
+  </linearGradient>
+  <linearGradient id="gSweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    <animate attributeName="x1" values="-1;1" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="gGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="46"/>
+  </filter>
+  <filter id="soft2" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1.1" fill="#e8ecf8" fill-opacity="0.16"/>
+  </pattern></defs>
+  <style>@keyframes ping{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(5)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+
+  <path d="M0 13 H 1100" stroke="#1c2540" stroke-width="1"/>
+  <path d="M0 13 H 1100" stroke="url(#gSweep)" stroke-width="1.6"/>
+  <g>
+    <animateMotion dur="8s" repeatCount="indefinite" path="M0 13 H 1100"/>
+    <path d="M0 -5 L 5 0 L 0 5 L -5 0 Z" fill="#22d3ee"/>
+  </g>
+  <circle cx="550" cy="13" r="2.2" fill="#8b5cf6"/>
+  <circle cx="550" cy="13" r="2.2" fill="#8b5cf6" style="animation:ping 3s ease-out infinite" transform-origin="550px 13px"/>
+</svg>
