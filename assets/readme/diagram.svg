@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img">
+  <title>Airline distribution: NDC and GDS as parallel paths to a booking screen</title><desc>Diagram: an airline's offers reach a booking screen either through NDC (offer/order, REST) or through a GDS (PNR, EDIFACT), then have to be reconciled.</desc>
+  <defs></defs>
+  <style>
+      .mono{font-family:'JetBrains Mono','SFMono-Regular',ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace}
+      .sans{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+      @media (prefers-reduced-motion: reduce){animate{display:none}}
+    </style>
+
+  <rect width="1200" height="280" fill="#0e1117"/>
+  <path d="M40 0V280M80 0V280M120 0V280M160 0V280M200 0V280M240 0V280M280 0V280M320 0V280M360 0V280M400 0V280M440 0V280M480 0V280M520 0V280M560 0V280M600 0V280M640 0V280M680 0V280M720 0V280M760 0V280M800 0V280M840 0V280M880 0V280M920 0V280M960 0V280M1000 0V280M1040 0V280M1080 0V280M1120 0V280M1160 0V280M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200" stroke="#171c25" stroke-width="0.75" opacity="0.3"/>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="14" fill="none" stroke="#1e2430"/>
+
+  <text x="64" y="52" class="mono" font-size="11" letter-spacing="3" fill="#4d5567">HOW A FARE REACHES A SCREEN</text>
+  <text x="1136" y="52" text-anchor="end" class="sans" font-size="12" fill="#4d5567">two content paths, one booking</text>
+
+  <path d="M64 152H418C452 152 452 118 494 118H830C872 118 872 152 906 152H1136" stroke="#1e2430" stroke-width="1" fill="none"/>
+  <path d="M64 152H418C452 152 452 186 494 186H830C872 186 872 152 906 152H1136" stroke="#1e2430" stroke-width="1" fill="none"/>
+
+  <!-- a packet on each path, offset in time -->
+  <circle r="2.4" fill="#d9a961">
+    <animateMotion dur="11s" repeatCount="indefinite" path="M64 152H418C452 152 452 118 494 118H830C872 118 872 152 906 152H1136"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.06;0.94;1" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.4" fill="#d9a961">
+    <animateMotion dur="11s" begin="5.5s" repeatCount="indefinite" path="M64 152H418C452 152 452 186 494 186H830C872 186 872 152 906 152H1136"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.06;0.94;1" dur="11s" begin="5.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- nodes -->
+  <circle cx="64" cy="152" r="3.4" fill="#0a0c10"/>
+    <circle cx="64" cy="152" r="3.4" fill="none" stroke="#e9ecf2" stroke-width="1" opacity="0.75"/><circle cx="1136" cy="152" r="3.4" fill="#0a0c10"/>
+    <circle cx="1136" cy="152" r="3.4" fill="none" stroke="#e9ecf2" stroke-width="1" opacity="0.75"/><circle cx="872" cy="152" r="3.4" fill="#0a0c10"/>
+    <circle cx="872" cy="152" r="3.4" fill="none" stroke="#e9ecf2" stroke-width="1" opacity="0.75"/>
+  <circle cx="494" cy="118" r="3.4" fill="#0a0c10"/>
+    <circle cx="494" cy="118" r="3.4" fill="none" stroke="#e9ecf2" stroke-width="1" opacity="0.75"/><circle cx="494" cy="186" r="3.4" fill="#0a0c10"/>
+    <circle cx="494" cy="186" r="3.4" fill="none" stroke="#e9ecf2" stroke-width="1" opacity="0.75"/>
+
+  <!-- end labels live outside the lines so nothing collides -->
+  <text x="62" y="134" class="mono" font-size="11.5" letter-spacing="2.4" fill="#e9ecf2" opacity="0.92">AIRLINE</text>
+  <text x="62" y="182" class="sans" font-size="12" fill="#4d5567">offers, inventory</text>
+
+  <text x="1138" y="134" text-anchor="end" class="mono" font-size="11.5" letter-spacing="2.4" fill="#e9ecf2" opacity="0.92">SCREEN</text>
+  <text x="1138" y="182" text-anchor="end" class="sans" font-size="12" fill="#4d5567">search, booking</text>
+
+  <!-- the two paths -->
+  <text x="512" y="104" class="mono" font-size="11.5" letter-spacing="2.4" fill="#e9ecf2" opacity="0.92">NDC</text>
+  <text x="512" y="104" dx="46" class="sans" font-size="12" fill="#4d5567">offer / order, REST</text>
+
+  <text x="512" y="212" class="mono" font-size="11.5" letter-spacing="2.4" fill="#e9ecf2" opacity="0.92">GDS</text>
+  <text x="512" y="212" dx="42" class="sans" font-size="12" fill="#4d5567">PNR, EDIFACT</text>
+
+  <text x="890" y="134" class="sans" font-size="12" fill="#4d5567">reconciled</text>
+
+  <text x="64" y="256" class="sans" font-size="12" fill="#4d5567">The awkward part is not either path. It is making them agree on price, availability and one booking.</text>
+</svg>
